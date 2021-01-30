@@ -18,7 +18,7 @@ namespace Çalışma1
 
             Console.WriteLine();
 
-            ahmet:
+            yeni_islem:
 
             Console.Write("1. Sayı:");
             sayi1 = Convert.ToDouble(Console.ReadLine());
@@ -78,7 +78,7 @@ namespace Çalışma1
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("Yeni İşlem");
             Console.ResetColor();
-            goto ahmet;
+            goto yeni_islem;
             Console.WriteLine();
 
             Console.ReadLine();
